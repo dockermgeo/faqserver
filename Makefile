@@ -6,7 +6,7 @@ install:
 	cd src && npm install && npm run auditfix
 build:
 	cd src && npm run prepublish
-	docker build -t $(DOCKER_IMAGE) -f Dockerfile.local .
+	docker build -t $(DOCKER_IMAGE) -f Dockerfile .
 
 start:
 	cd src
