@@ -1,0 +1,58 @@
+{
+    "settings": {
+        "route_name": "faqs",
+        "num_top_results": "10",
+        "date_format": "DD/MM/YYYY h:mmA",
+        "show_view_count": true,
+        "update_view_count_logged_in": false,
+        "show_published_date": true,
+        "sort_by": {
+            "field": "kb_viewcount",
+            "order": 1
+        },
+        "website_title": "CICD - FAQs",
+        "show_featured_articles": false,
+        "show_featured_in_article": false,
+        "featured_articles_count": "4",
+        "password_protect": false,
+        "show_kb_meta": false,
+        "suggest_allowed": false,
+        "show_author_email": false,
+        "mermaid": false,
+        "mathjax": false,
+        "mathjax_input_mode": "TeX-MML-AM_CHTML",
+        "app_context": "",
+        "links_blank_page": false,
+        "database": {
+            "type": "embedded"
+        },
+        "allow_voting": false,
+        "google_analytics": "",
+        "theme": "faqs",
+        "show_logon": false,
+        "add_header_anchors": false,
+        "typeahead_search": true,
+        "index_article_body": true,
+        "enable_spellchecker": true,
+        "show_website_logo": true,
+        "webside_title": "CICD-FAQs",
+        "website_description": "CICD-Pipeline Support",
+        "website_subdescription": "Find help on our FAQ's. Use tags or error messages to find hits.\n",
+        "article_versioning": false,
+        "api_auth_token": "",
+        "api_allowed": true,
+        "locale": "en",
+        "env": "",
+        "style": {
+            "cssHeaderBackgroundColor": "",
+            "cssHeaderTextColor": "",
+            "cssFooterBackgroundColor": "",
+            "cssFooterTextColor": "",
+            "cssButtonBackgroundColor": "",
+            "cssButtonTextColor": "",
+            "cssLinkColor": "",
+            "cssTextColor": "",
+            "cssFontFamily": ""
+        }
+    }
+}

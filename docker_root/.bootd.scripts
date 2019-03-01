@@ -1,0 +1,31 @@
+
+info() {
+    echo "$*"
+}
+
+warn() {
+    echo "[WARN] $*"
+}
+
+error() {
+    echo "[ERROR] $*"
+}
+
+errorexit() {
+    echo "[ERROR] $*"
+    exit 1;
+}
+
+copydb() {
+    DB_NAME=$1
+    IDB=${IMP_DIR}/${DB_NAME}.db
+    ODB=${EXP_DIR}/${DB_NAME}.db
+
+    if [ -f ${IDB} ];then
+        info "Importing Database: ${DB_NAME}"
+        cp -vf ${IDB} ${ODB}
+    fi
+}
+
+
+

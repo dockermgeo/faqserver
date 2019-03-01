@@ -1,0 +1,17 @@
+node_modules/
+data/users.db
+data/sessions.db
+data/kb.db
+data/votes.db
+data/*
+public/images/
+public/uploads/
+data/export.zip
+.vscode
+jsconfig.json
+.idea/
+.DS_Store
+data/*.db
+*.log
+package-lock.json
+src/node_modules
