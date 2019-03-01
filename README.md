@@ -2,7 +2,7 @@
 
 
 ## Adminpassword
-If you set ENV-Variabl **ADMIN_PASSWORD", the Password will bcrypted in users.db.
+If you set ENV-Variable **ADMIN_PASSWORD** is set, the user will added and the password will bcrypted in users.db.
 
 
 ```
